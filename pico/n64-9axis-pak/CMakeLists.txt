@@ -12,6 +12,8 @@ pico_sdk_init()
 add_executable(${TITLE}
     main.cpp
     io.cpp io.hpp
+    hardware_config.h
+    state.h
     )
 
 # Include dependencies
